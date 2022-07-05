@@ -87,7 +87,7 @@ namespace CFGProjectGenerator
         /// </summary>
         static void PrintHelp()
         {
-            Console.WriteLine("Usage: `CFGProjectGenerator.exe path/to/inputfile.csproj.in`");
+            Console.WriteLine("Usage: `CFGProjectGenerator.exe path\\to\\inputfile.csproj.in`");
             Console.WriteLine("Or: `CFGProjectGenerator.exe rootpath`\n\t(under which there is a GameData.csproj.in in that or some subdir)");
             Console.WriteLine("In the .csproj.in file, the string `<<content>>` will be replaces with all cfg files found in GameData");
         }
